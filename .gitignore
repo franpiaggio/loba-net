@@ -1,11 +1,33 @@
-# Godot 4+ specific ignores
+# Godot 4.x
 .godot/
+.import/
 /android/
 
-# Build outputs
-/builds/
+# Godot Mono / C#
+.mono/
+data_*/
 
-# .NET / C#
+# .NET / C# build artifacts
 bin/
 obj/
 *.user
+*.suo
+
+# Visual Studio
+.vs/
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+
+# Build / Export
+/builds/
+export/
+build/
+*.exe
+*.pck
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
