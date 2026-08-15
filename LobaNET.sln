@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LobaNET", "LobaNET.csproj", "{2F339996-B052-4415-AB6E-B89ADD156D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F339996-B052-4415-AB6E-B89ADD156D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F339996-B052-4415-AB6E-B89ADD156D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F339996-B052-4415-AB6E-B89ADD156D25}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{2F339996-B052-4415-AB6E-B89ADD156D25}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{2F339996-B052-4415-AB6E-B89ADD156D25}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{2F339996-B052-4415-AB6E-B89ADD156D25}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

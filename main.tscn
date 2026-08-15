@@ -1,0 +1,50 @@
+[gd_scene load_steps=9 format=3 uid="uid://dw1im07m0tris"]
+
+[ext_resource type="Script" uid="uid://tmgkjhcah3ar" path="res://WindowOverlay.cs" id="1_h2yge"]
+[ext_resource type="Texture2D" uid="uid://bnlpqkp4l3wxs" path="res://loba.png" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://dwt7d56nmb67d" path="res://Dog.cs" id="2_0xm2m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0xm2m"]
+atlas = ExtResource("1_ig7tw")
+region = Rect2(225, 58, 75, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h2yge"]
+atlas = ExtResource("1_ig7tw")
+region = Rect2(0, 232, 75, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bvp3"]
+atlas = ExtResource("1_ig7tw")
+region = Rect2(75, 232, 75, 57)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lquwl"]
+atlas = ExtResource("1_ig7tw")
+region = Rect2(150, 232, 75, 57)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7mycd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0xm2m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h2yge")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bvp3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lquwl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Main" type="Node2D"]
+position = Vector2(479, 209)
+script = ExtResource("1_h2yge")
+
+[node name="Dog" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_7mycd")
+script = ExtResource("2_0xm2m")
